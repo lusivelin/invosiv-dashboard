@@ -18,9 +18,36 @@ src/
 ├── app/
 ├── components/
 │   ├── elements/
-│   │   └── **/*.(tsx|module.scss|ts)
+│   │   └── **/*.(tsx|ts)
 │   └── pages/
-│       └── **/section-(one~ten)/*.(tsx|module.scss|ts)
+│       └── **/section-(one~ten)/*.(tsx|ts)
 └── styles/
-    └── *.module.scss
+    └── *.(scss|css)
 ```
+
+
+# Page sections
+
+Every page section component have id according to the page
+example id: (page)-section-(number)
+
+Page Mapping Definition
+(Will implement JSdoc on every components)
+
+Home
+- section-one => Banner
+- section-two => Introduction Slider
+
+Login
+- section-one => Banner
+
+# Q&A
+
+Why not tailwind and css module ?
+- Simple is the best.
+
+Why don't you write test ?
+- Typescript is poor man's test case.
+
+So why use scss ?
+- Want to use nesting that's all.
