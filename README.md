@@ -13,12 +13,13 @@ bun dev
 ```
 # Project Folder Structure
 
-- `src/`
-  - `app/`
-  - `components/`
-    - `elements/`
-      - `**/*.(tsx|module.scss|ts)`
-    - `pages`
-      - `**/section-(one~ten)/*.(tsx|module.scss|ts)`
-  - `styles/`
-    - `*.module.scss`
+|-- src/
+  |-- app/
+  |-- components/
+    |-- elements/
+      |-- **/*.(tsx|module.scss|ts)
+    |-- pages/
+      |-- **/section-(number)/*.(tsx|module.scss|ts)
+  |-- styles/
+    |-- *.module.scss
+
