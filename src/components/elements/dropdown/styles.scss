@@ -1,0 +1,18 @@
+#generic-dropdown {
+  position: relative;
+
+  width: 120px;
+  .dropdown-control {
+    border: 1px solid #e3e3e3;
+  }
+
+  .dropdown-panel {
+    ul {
+      li {
+        &:hover {
+          background: #e3e3e3;
+        }
+      }
+    }
+  }
+}

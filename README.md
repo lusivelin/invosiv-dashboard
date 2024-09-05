@@ -41,6 +41,11 @@ Home
 Login
 - section-one => Banner
 
+# Elements (Generic Components)
+
+Dropdown => CSSTransition
+Tabs => using SwitchTransition + CSSTransition
+
 # Q&A
 
 Why not tailwind and css module ?
